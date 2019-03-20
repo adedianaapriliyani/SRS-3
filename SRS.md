@@ -44,81 +44,14 @@
 <p>&nbsp;</p>
 <p><strong><br /> </strong></p>
 <p><strong>&nbsp;</strong></p>
-<p><strong>DAFTAR ISI</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>HALAMAN JUDUL............................................................................................... i</strong></p>
-<p><strong>KATA PENGANTAR.................................................................................... </strong></p>
-<p><strong>RINGKASAN......................................................................................................... ii</strong></p>
-<p><strong>DAFTAR ISI.......................................................................................................... v</strong></p>
-<p><strong>DAFTAR TABEL................................................................................................. vi</strong></p>
-<p><strong>DAFTAR GAMBAR............................................................................................ vii</strong></p>
-<p><strong>BAB I </strong><strong>PENDAHULUAN</strong></p>
-<ul>
-<li>Gambaran Proyek..............................................................................</li>
-<li>Dokument-dokumen dalam proyek........................................................... 1</li>
-</ul>
-<p>1.3&nbsp;&nbsp; Evolusi SPMP........................................................................................... 1</p>
-<p>1.4&nbsp;&nbsp; Material Acuan.......................................................................................... 2</p>
-<p>1.5&nbsp;&nbsp; Definisi dan Akronim............................................................................... 2</p>
-<p>&nbsp;</p>
-<p><strong>BAB II </strong><strong>ORGANISASI PROYEK</strong></p>
-<p>2.1&nbsp;&nbsp; Model Proses............................................................................................. 1</p>
-<p>2.2&nbsp;&nbsp; Struktur Organisasi................................................................................... 2</p>
-<p>2.3&nbsp;&nbsp; Batasan dan Antarmuka Organisasi.......................................................... 2</p>
-<p>2.4&nbsp;&nbsp; Lingkungan Hidup.................................................................................... 1</p>
-<p>&nbsp;</p>
-<p><strong>BAB II</strong><strong>I</strong> <strong>PROSES MANAJERIAL</strong></p>
-<p>3.1&nbsp;&nbsp; Tujuan dan prioritas manajemen............................................................... 1</p>
-<p>3.2&nbsp;&nbsp; Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan.......... 2</p>
-<p>3.3&nbsp;&nbsp; Manajemen resiko..................................................................................... 2</p>
-<p>3.4&nbsp;&nbsp; Mekanisme monitoring dan kontroling..................................................... 1</p>
-<p>3.5&nbsp;&nbsp; Perencanaan staf........................................................................................ 1</p>
-<p>&nbsp;</p>
-<p><strong>BAB I</strong><strong>V</strong> <strong>PROSES TEKNIS</strong></p>
-<p>4.1&nbsp;&nbsp; Metoda, tool, dan teknik........................................................................... 1</p>
-<p>4.2&nbsp;&nbsp; Dokumentasi perangkat lunak................................................................... 2</p>
-<p>4.3&nbsp;&nbsp; Fungsi-fungsi pendukung proyek............................................................. 2</p>
-<p>&nbsp;</p>
-<p><strong>BAB </strong><strong>V</strong> <strong>PAKET PEKERJAAN</strong></p>
-<p>5.1&nbsp;&nbsp; Mekanisme Monitoring dan Kontroling......................................................... 1</p>
-<p>5.2&nbsp;&nbsp; Ketergantungan dan Keterkaitan............................................................... 2</p>
-<p>5.3&nbsp;&nbsp; Kebutuhan Sumber Daya.............................................................................. 2</p>
-<p>5.4&nbsp;&nbsp; Alokasi budget dan sumber daya................................................................... 1</p>
-<p>5.5&nbsp;&nbsp; Ketergantungan dan Keterkaitan............................................................... 2</p>
-<p>5.3&nbsp;&nbsp; Jadwal........................................................................................................ 2</p>
-<p><strong>BAB </strong><strong>VI</strong> <strong>PENUTUP</strong></p>
-<p>6.1&nbsp;&nbsp; Kesimpulan................................................................................................. 1</p>
-<p>6.2&nbsp;&nbsp; Saran......................................................................................................... 2</p>
-<p><strong>BAB VII REFERNSI</strong></p>
-<p><strong>BAB VIII LAMPIRAN</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p>&nbsp;</p>
-<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong>DAFTAR TABEL</strong></p>
-<p><strong><br /> </strong></p>
-<p><strong>DAFTAR GAMBAR</strong></p>
-<p><strong><br /> </strong></p>
-<p><strong>&nbsp;</strong></p>
-<p><strong><br /> </strong></p>
-<p><strong>&nbsp;</strong></p>
+<p><strong>BAB I</strong></p>
+<p><strong>PENDAHULUAN</strong></p>
+<p><strong>1.1 Tujuan</strong></p>
+<p>Dokumen ini akan menyajikan deskripsi rinci tentang Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website (MANGOLINESHP) yang akan dikembangkan. Dokumen akan menjelaskan mengenai spesifikasi pada aplikasi Mangolineshop seperti fitur sistem, antarmuka sistem, sistem apa yang akan dilakukan, apa saja kendala pada saat aplikasi beroperasi, dana bagaiman system akan bereaksi pada saat sedang digunakan oleh pemakai atau user.</p>
+<p><strong>1.2&nbsp;Lingkup</strong></p>
+<p>Dokumen ini menyediakan acuan untuk pengendalian tentang aplikasi Mangolineshop. Adapun ruang lingkup pembuatan aplikasi ini adalah berbasis website yang memilih beberapa fasilitas yang ada yaitu:</p>
+<ol>
+<li>Admin untuk mengelola data CRUD (Create, Read, Update, Delete) yang ada pada fitur- fitur aplikasi Mangolineshop seperti input produk olahan mangga, mendaftarkan akun kasir dan akun penjual, dan memonitoring laporan keuangan.</li>
+<li>Kasir sebagai tempat perhitungan pada transaksi pembelian yang dilakukan oleh pelanggan dan dapat memonitoring hasil pendapatan pada hari ini.</li>
+<li>Penjual sebagai wadah untuk produk olahan mangga yang di Mangolineshop tersebut agar pelanggan dapat memesan produk yang ada dan data yang dipesan akan di tampung pada chart pesanan yang akan dikonfirmasi jika jadi memesan dan dapat dibatalkan jika tidak jadi dipesan yang dilakukan oleh penjual.</li>
+</ol>
