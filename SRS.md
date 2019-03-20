@@ -1,65 +1,124 @@
-<h1>Software Requirement Specification (SRS)</h1>
-<b>1. PENDAHULUAN</b><br>
-&emsp;<b>1.1 Tujuan</b><br>
-&emsp;&emsp;Tujuan dari pembuatan proposal ini adalah :<br>
-&emsp;&emsp;1.1.1 Memperkenalkan beragam jenis olahan mangga yang ada di Indramayu kepada masyarakat luar.<br>
-&emsp;&emsp;1.1.2 Mengetahui cara mengembangkan aplikasi penyedia lapak penjual olahan  mangga<br>
-&emsp;<b>1.2 Lingkup</b><br>
-&emsp;&emsp;Agar pembatasan masalah lebih jelas, maka penulis memberikan batasan yang akan dilakukan yaitu:<br>
-&emsp;&emsp;1.2.1	Pembeli yang menjadi mudah untuk mencari penjual olahan mangga tanpa harus mendatangi toko olahan mangga secara langsung<br>
-&emsp;&emsp;1.2.2	Sistem ini dibangun untuk diimplementasikan dengan menggunakan  aplikasi Web<br>
-&emsp;&emsp;1.2.3	Sistem ini dibuat dengan menggunakann framework laravel.<br>
-&emsp;<b>1.3 Definisi, Akronim, Singkatan</b><br>
-&emsp;&emsp;Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website (MANGOLINESHP) adalah salah satu jenis aplikasi &emsp;&emsp;perangkat lunak yang dapat digunakan untuk membantu proses penjualan olahan secara online. Selama ini pemasaran &emsp;&emsp;olahan mangga khas Indramayu dipasarkan secara konvensional yaitu dijual di toko sekitar Indramayu saja.<br>
-&emsp;<b>1.4 Referensi</b><br>
-&emsp;&emsp;[1] http://handokochun.blogspot.com/2014/03/bahasa-pemrograman-yang-digunakan-untuk.html<br>
-&emsp;&emsp;[2] https://www.nesabamedia.com/pengertian-mysql/	<br>
-&emsp;&emsp;[4]http://imaniania5.blogspot.com/2013/10/pengertiandefinisi-dan-fungsi-dari-css.html<br>
-&emsp;&emsp;[5] https://bertzzie.com/knowledge/javascript/Fungsi-pada-Javascript.html<br>
-&emsp;&emsp;[6] https://thidiweb.com/pengertian-bootstrap/<br>
-&emsp;&emsp;[7] https://bogordesain.com/manfaat-E-Commerce-bagi-pengguna-bisnis-online<br>
-&emsp;&emsp;[8] http://ciputrauceo.net/blog/2016/2/18/metode-pengumpulan-data-dalam-penelitian<br>
-&emsp;&emsp;[9] https://teorionline.wordpress.com/service/metode-pengumpulan-data/<br>
-&emsp;&emsp;[10] https://ardhana12.wordpress.com/2008/02/08/teknik-analisis-data-dalam-penelitian/<br>
-&emsp;1.5 Overview<br>
-&emsp;&emsp;a.	Judul dibuat sesingkat singkatnya, jelas menunjukan dengan tepat masalah yang hendak diteliti dan tidak peluang penafsiran ganda.<br>
-&emsp;&emsp;b.	Jenis usulan adalah proposal proyek 1<br>
-&emsp;&emsp;c.	Program studi dan jurusan<br>
-&emsp;&emsp;d.	Lambang POLITEKNIK NEGERI INDRAMAYU<br>
-&emsp;&emsp;e.	Nama dan nomor induk mahasiswa diletakkan ditengah halaman judul.<br>
-&emsp;&emsp;f.	Institusi adalah pengajuan POLITEKNIK NEGERI INDRAMAYU<br>
-
-<b>2. Gambaran Umum</b><br>
-&emsp;2.1 Perspektif produk<br>
-&emsp;&emsp;2.1.1 Antarmuka sistem<br>
-&emsp;&emsp;&emsp;&emsp;Bagian interface sistem dimana pada bagian ini tertera beberapa bagan yang menggambarkan interface dan alur sistem.<br>
-&emsp;&emsp;2.1.2 Antarmuka pengguna<br>
-&emsp;&emsp;&emsp;&emsp;Bagian interfaces sistem yang menyuguhkan tampilan berserta fungsi-fungsi modul yang bisa digunakan oleh user dalam pengoperasian.<br>
-&emsp;&emsp;2.1.3 Antarmuka perangkat keras <br>
-&emsp;&emsp;&emsp;&emsp;Antarmuka ini menampilkan beberapa kegunaan device atau perangkat keras yang digunakan.<br>
-&emsp;&emsp;2.1.4 Antarmuka perangkat lunak<br>
-&emsp;&emsp;&emsp;&emsp;Antarmuka ini menampilkan beberapa kegunaan device atau perangkat lunak yang digunakan.<br>
-&emsp;&emsp;2.1.5 Antarmuka komunikasi<br>
-&emsp;&emsp;&emsp;&emsp;Bagian ini menjelaskan bagaimana sistem berkomunikasi dengan perangkat yang ada.<br>
-&emsp;&emsp;2.1.6 Batasan-batasan memori<br>
-&emsp;&emsp;&emsp;&emsp;Bahan ini tertera batasan batasan memori dari sistem yang telah dirancang.<br>
-&emsp;&emsp;2.1.7 Operasi-operasi<br>
-&emsp;&emsp;&emsp;&emsp;Terdapat beberapa operasi-operasi yang ada pada bagian ini yang terintegrasi pada sistem.<br>
-&emsp;&emsp;2.1.8 Kebutuhan-kebutuhan dalam tahapan adaptasi<br>
-&emsp;&emsp;&emsp;&emsp;Beberapa kebutuhan dan resource yang tertera dalam pengadaptasian.<br>
-&emsp;2.2 Fungsi-fungsi produk<br>
-&emsp;2.3 Karakteristik pengguna<br>
-&emsp;2.4 Batasan-batasan<br> 
-&emsp;2.5 Asumsi-asumsi dan ketergantungan/keterkaitan<br>
-&emsp;2.6 Kebutuhan-kebutuhan penyeimbang<br>
-<b>3. Kebutuhan lain yang spesifik</b><br>
-&emsp;&emsp;Analisis data adalah proses pengorganisasian dan mengurutkan data kedalam pola, kategori, dan satuan uraian dasar &emsp;&emsp;sehingga dapat ditemukan tema dan dapat dirumuskan hipotesis kerja seperti yang disarankan oleh data.<br>
-&emsp;&emsp;Data yang tersumber dari penelitian pengamatan dan wawancara yang terkumpul akan dijadikan informasi untuk &emsp;&emsp;pengambilan keputusan selanjutnya. Setelah itu dengan menggunakan metode pengumpulan data di atas, maka penelitian &emsp;&emsp;akan mengolah dan menganalisis data tersebut dengan menggunkan analisis secara deskriptif-kualitatif.<br>
-
-<b>4.  Informasi pendukung</b><br>
-&emsp;&emsp;Lokasi penelitian dilakukan di pengolahan mangga sekitar Indramayu.<br>
-&emsp;&emsp;Nama		: Kenanga Mandiri<br>
-&emsp;&emsp;Alamat		: Blok Gandok RT 14 RW 05, Desa Kenanga, Kec. Sindang, Kab. Indramayu<br>
-&emsp;&emsp;Produk		: Desmigratif Kenanga Mandiri-Indramayu<br>
-&emsp;&emsp;Adapun waktu penelitian serta kegiatan dilakukan pada bulan Februari s/d Juni 2019.<br>
-
+<p><strong>SOFTWARE REQUIREMENTS SPECIFICATIONS</strong></p>
+<p><strong>APLIKASI PENJUALAN </strong><strong>OLAHAN </strong></p>
+<p><strong>BUAH MANGGA</strong> <strong>INDRAMAYU BERBASIS WEBSITE</strong></p>
+<p><strong>TIKB2293 PROYEK II </strong></p>
+<p>Diajukan untuk Memenuhi Persyaratan Mata Kuliah Proyek II</p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+<p>Disusun Oleh:</p>
+<p>Ade Diana Apriliyani&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1703072)</p>
+<p>Fany Fahrurozi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1703060)</p>
+<p>Fiqi Andri Reviansyah&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (1703064)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>D3 TEKNIK INFORMATIKA</strong></p>
+<p><strong>POLITEKNIK NEGERI INDRAMAYU</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>Jl. Lohbener Lama No.08, Lohbener, Indramayu, Legok, Lohbener, Kabupaten Indramayu, Jawa Barat 45252, Indonesia</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<h1>KATA PENGANTAR</h1>
+<p>&nbsp;</p>
+<p>Puji syukur kehadirat Allah swt yang telah melimpahkan rahmat-Nya sehingga aplikasi ini dapat diselesaikan tepat pada waktunya dengan judul &ldquo;Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website &rdquo;. Aplikasi ini disusun demi memenuhi Tugas Mata Kuliah Proyek II Program Studi Teknik Informatika Diploma III Politeknik Negeri Indramayu.</p>
+<p>Harapan kami, aplikasi ini menjadi salah satu media yang menarik untuk dikunjungi dan mudah dipahami oleh seluruh pengunjungnya. Akhirnya penyusun mengucapkan banyak terima kasih, khususnya kepada:</p>
+<ol>
+<li>Ibu Munengsih Sari Bunga, S.Kom., M.Eng selaku Ketua Jurusan Teknik Informatika Politeknik Negeri Indramayu.</li>
+<li>Bapak Adi Suheryadi S.ST., M.Kom., selaku dosen wali kelas D3TI.2C dan dosen pembimbing I.</li>
+<li>Bapak Eka Ismantohadi, S.Kom.,M.Eng selaku dosen pembimbing II.</li>
+<li>Bapak Kurnia Adi Cahyanto, S.T.,M.Kom selaku dosen pembimbing III.</li>
+<li>Orang tua dan keluarga yang selalu memberikan dukungan kepada saya baik itu moril maupun materil.</li>
+<li>Rekan-rekan D3TI.2C, yang selalu memberikan keceriaan disetiap harinya sehingga saya tidak merasa terbebani dengan adanya tugas ini.</li>
+</ol>
+<p>Penyusun mengharapkan saran-saran dari para pembaca sebagai masukan yang berguna bagi penyempurnaan aplikasi ini. Semoga aplikasi ini bermanfaat bagi kita semua.</p>
+<p><br /> <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Indramayu, 10 Februari 2019<br /> <br /> <br /> <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Penulis<br /> </p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>RINGKASAN </strong></p>
+<p>Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website (MANGOLINESHP) adalah salah satu jenis aplikasi perangkat lunak yang dapat digunakan untuk membantu proses penjualan olahan secara online. Selama ini pemasaran olahan mangga khas Indramayu dipasarkan secara konvensional yaitu dijual di toko sekitar Indramayu saja. Pemasaran olahan mangga Indramayu pun kurang berkembang karena pembeli harus datang ke toko. Oleh karena itu olahan mangga&nbsp; khas Indramayu pun yang mengenal hanya orang-orang yang singgah atau berwisata ke Indramayu saja. Sehingga kami berinisiatif untuk membuat sebuah wadah yang didalamnya terdapat lapak-lapak penjual olahan mangga dalam bentuk aplikasi berbasis website. Dibuatnya aplikasi ini kami bisa membantu pemasaran dari penjual olahan mangga Indramayu serta mempromosikan tentang keberagaman olahan mangga yang ada di Indramayu.</p>
+<p>Aplikasi Penjualan Olahan Mangga Indramayu Berbasis Website ini dibangun dengan menggunakan framework laravel dengan didukung basis data MYSQL.</p>
+<p><strong>Kata kunci&nbsp;&nbsp;&nbsp;&nbsp; : </strong>Aplikasi Penjualan, framework laravel, MYSQL</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><br /> </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>DAFTAR ISI</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>HALAMAN JUDUL............................................................................................... i</strong></p>
+<p><strong>KATA PENGANTAR.................................................................................... </strong></p>
+<p><strong>RINGKASAN......................................................................................................... ii</strong></p>
+<p><strong>DAFTAR ISI.......................................................................................................... v</strong></p>
+<p><strong>DAFTAR TABEL................................................................................................. vi</strong></p>
+<p><strong>DAFTAR GAMBAR............................................................................................ vii</strong></p>
+<p><strong>BAB I </strong><strong>PENDAHULUAN</strong></p>
+<ul>
+<li>Gambaran Proyek..............................................................................</li>
+<li>Dokument-dokumen dalam proyek........................................................... 1</li>
+</ul>
+<p>1.3&nbsp;&nbsp; Evolusi SPMP........................................................................................... 1</p>
+<p>1.4&nbsp;&nbsp; Material Acuan.......................................................................................... 2</p>
+<p>1.5&nbsp;&nbsp; Definisi dan Akronim............................................................................... 2</p>
+<p>&nbsp;</p>
+<p><strong>BAB II </strong><strong>ORGANISASI PROYEK</strong></p>
+<p>2.1&nbsp;&nbsp; Model Proses............................................................................................. 1</p>
+<p>2.2&nbsp;&nbsp; Struktur Organisasi................................................................................... 2</p>
+<p>2.3&nbsp;&nbsp; Batasan dan Antarmuka Organisasi.......................................................... 2</p>
+<p>2.4&nbsp;&nbsp; Lingkungan Hidup.................................................................................... 1</p>
+<p>&nbsp;</p>
+<p><strong>BAB II</strong><strong>I</strong> <strong>PROSES MANAJERIAL</strong></p>
+<p>3.1&nbsp;&nbsp; Tujuan dan prioritas manajemen............................................................... 1</p>
+<p>3.2&nbsp;&nbsp; Asumsi-asumsi, ketergantungan/keterkaitan, dan batasan-batasan.......... 2</p>
+<p>3.3&nbsp;&nbsp; Manajemen resiko..................................................................................... 2</p>
+<p>3.4&nbsp;&nbsp; Mekanisme monitoring dan kontroling..................................................... 1</p>
+<p>3.5&nbsp;&nbsp; Perencanaan staf........................................................................................ 1</p>
+<p>&nbsp;</p>
+<p><strong>BAB I</strong><strong>V</strong> <strong>PROSES TEKNIS</strong></p>
+<p>4.1&nbsp;&nbsp; Metoda, tool, dan teknik........................................................................... 1</p>
+<p>4.2&nbsp;&nbsp; Dokumentasi perangkat lunak................................................................... 2</p>
+<p>4.3&nbsp;&nbsp; Fungsi-fungsi pendukung proyek............................................................. 2</p>
+<p>&nbsp;</p>
+<p><strong>BAB </strong><strong>V</strong> <strong>PAKET PEKERJAAN</strong></p>
+<p>5.1&nbsp;&nbsp; Mekanisme Monitoring dan Kontroling......................................................... 1</p>
+<p>5.2&nbsp;&nbsp; Ketergantungan dan Keterkaitan............................................................... 2</p>
+<p>5.3&nbsp;&nbsp; Kebutuhan Sumber Daya.............................................................................. 2</p>
+<p>5.4&nbsp;&nbsp; Alokasi budget dan sumber daya................................................................... 1</p>
+<p>5.5&nbsp;&nbsp; Ketergantungan dan Keterkaitan............................................................... 2</p>
+<p>5.3&nbsp;&nbsp; Jadwal........................................................................................................ 2</p>
+<p><strong>BAB </strong><strong>VI</strong> <strong>PENUTUP</strong></p>
+<p>6.1&nbsp;&nbsp; Kesimpulan................................................................................................. 1</p>
+<p>6.2&nbsp;&nbsp; Saran......................................................................................................... 2</p>
+<p><strong>BAB VII REFERNSI</strong></p>
+<p><strong>BAB VIII LAMPIRAN</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p>&nbsp;</p>
+<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>DAFTAR TABEL</strong></p>
+<p><strong><br /> </strong></p>
+<p><strong>DAFTAR GAMBAR</strong></p>
+<p><strong><br /> </strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong><br /> </strong></p>
+<p><strong>&nbsp;</strong></p>
